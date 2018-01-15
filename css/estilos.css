@@ -1,0 +1,66 @@
+body {
+	margin-left: 15%;
+	background-color: #02010a;
+	color: white;
+	font-family: dancing script;
+  	width: 70%;
+  	text-align: center;
+}
+
+header h1{
+	text-align: left;
+	font-family: dancing script;
+	color: white;
+	text-shadow: 2px 2px #02010a;
+
+}
+
+header{
+	background-color: #5b7989;
+	padding: 15px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+.contenedor{
+  width: 100%;
+}
+img{
+  margin: 0 auto;
+  float: center;
+}
+
+#imagen1{
+  width: 100%;
+  margin:0 auto;
+}
+
+#imagen-central{
+  background-color: #82c3a6;
+  float: center;
+  width: 100%;
+
+}
+
+#menu-principal{
+	float: right;
+
+}
+
+#boton{
+	padding: 0;
+
+}
+
+#boton li{
+	display: inline;
+}
+
+#boton li a{
+font-family: dancing script;
+font-size:18px;
+text-decoration: none;
+float:left;
+padding: 25px;
+color: white;
+}
+
