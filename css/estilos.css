@@ -78,6 +78,7 @@ color: white;
 	border:2px;
 	border-style: solid;
 	border-color: black;
+	box-shadow: 2px 2px 2px #82c3a6 ;
 
 }
 
@@ -91,10 +92,18 @@ color: white;
 
 }
 
+#imagen3{
+	border:2px;
+	border-style: solid;
+	border-color: black;
+}
+
 .imagen-segundaria{
 	display: flex;
 	flex-wrap: nowrap;
 	background-color: #d5c75f;
+	border: 2px;
+
 	
 
 	
