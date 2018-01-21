@@ -74,6 +74,18 @@ color: white;
   
 }
 
+#imagen2{
+	border:2px;
+	border-style: solid;
+	border-color: black;
+
+}
+
+#imagen2:hover {
+	transform: rotate(10deg);
+
+}
+
 .imagen-segundaria{
 	display: flex;
 	flex-wrap: nowrap;
@@ -86,8 +98,11 @@ color: white;
 .imagen2{
     margin: 15px;
     
+
     
 }
+
+.imagen2:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
 
 
 .imagen3{
@@ -138,9 +153,3 @@ color: white;
 width: 25%;
 
 }
-
-
-
-
-
-
