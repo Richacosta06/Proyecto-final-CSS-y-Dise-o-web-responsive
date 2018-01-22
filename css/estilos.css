@@ -167,3 +167,24 @@ color: white;
 width: 25%;
 
 }
+
+.galeria1 {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+}
+
+.cp1, .cp2, .cp3 {
+width: 33.33%;
+margin: 2px;	
+
+}
+
+#galeria1{
+
+	background-color: #d5c75f;
+
+
+
