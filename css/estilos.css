@@ -8,7 +8,7 @@ body {
 }
 
 header h1{
-	text-align: left;
+	text-align: justify-all;
 	font-family: dancing script;
 	color: white;
 	text-shadow: 2px 2px #02010a;
@@ -20,15 +20,41 @@ header{
 	padding: 15px;
 	border-radius: 10px 10px 0px 0px;
 
+
+
 }
 
 footer{
 	color: black;
 }
 
-#menu-principal{
-	float: right;
+.contenedor{
+	width: 100%;
 }
+
+.header{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+
+.menu-principal{
+	width: 50%;
+	
+	
+}
+
+
+.titulo{
+	width: 50%;
+	text-align: left;
+	
+	
+}
+
 
 #boton{
 	padding: 0;
@@ -42,7 +68,7 @@ footer{
 font-family: dancing script;
 font-size:18px;
 text-decoration: none;
-float:left;
+float:right;
 padding: 25px;
 color: white;
 }
@@ -106,19 +132,21 @@ color: white;
 
 .imagen2{
     margin: 15px;
-    
-    
    
 }
-
-.imagen2:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
 
 
 .imagen3{
 	margin: 15px;
 	
- 
-}
+ }
+
+
+
+
+.imagen2:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+
+
 
 #footer{
 
@@ -164,7 +192,7 @@ width: 25%;
 
 @media screen and (max-width: 900px){
 
-.imagen-segundaria
+	.imagen-segundaria
 	{
 
 	display: flex;
@@ -172,22 +200,40 @@ width: 25%;
 	
 	}
 
-	#imagen1{
- 	 width: 80%;
-  	 
-  
-}
-	
-	
-	header
-	{
-	width:100%;
+
+	.titulo{
+		width: 100%;
+		text-align: center;
 	}
 
-	.c1
+
+	.menu-principal{
+		width: 100%;
+		
+		
+		
+	}
+
+
+	#boton li a{
+
+
+     padding: 11%;
+     float: center;
+	}
+
+
+
+
+	
+
+	
+		
+
+ 	.c1
 	{
 	width: 100%;
-	}
+	}	
 	.c2
 	{
 	width: 100%;
@@ -201,9 +247,7 @@ width: 25%;
 	width: 100%;
 	}
 
-	footer{
-		width: 100%;
-	}
+	
 }
 
 
