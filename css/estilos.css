@@ -85,6 +85,30 @@ color: white;
   border: 2px;
 
 }  
+
+.galeria{
+  background-color: #d5c75f;
+  border: 2px;
+  	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row-reverse;
+
+}  
+
+.imagen4{
+	width: 33%;
+}
+
+.imagen5{
+	width: 33%;
+}
+  
+
+.imagen6{
+	width: 33%;
+}
+  
   
 
 #imagen1{
