@@ -29,8 +29,10 @@ footer{
 }
 
 .contenedor{
-	width: 100%;
+	width: 70%;
 }
+
+
 
 .header{
 	display: -webkit-flex;
@@ -87,29 +89,31 @@ color: white;
 }  
 
 .galeria{
-  background-color: #d5c75f;
-  border: 2px;
-  	display: -webkit-flex;
+  	background-color: #d5c75f;
+  	border: 2px;  	
 	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row-reverse;
+	flex-direction: row;
+	flex-wrap: wrap;
 
 }  
 
-.imagen4{
-	width: 33%;
+.imagen{
+
+	width: 300px;
+	height: 200px;
+	margin: 5px;
+	
+
 }
 
-.imagen5{
-	width: 33%;
-}
-  
+.image{
 
-.imagen6{
-	width: 33%;
+	width: 100%;
+	height: 100%;
 }
-  
-  
+
+
+    
 
 #imagen1{
   width: 70%;
@@ -245,13 +249,6 @@ width: 25%;
      padding: 11%;
      float: center;
 	}
-
-
-
-
-	
-
-	
 		
 
  	.c1
@@ -271,7 +268,19 @@ width: 25%;
 	width: 100%;
 	}
 
-	
+	.galeria{
+  	background-color: #d5c75f;
+  	border: 2px;  	
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	}
+
+
+
 }
+
+
+
 
 
