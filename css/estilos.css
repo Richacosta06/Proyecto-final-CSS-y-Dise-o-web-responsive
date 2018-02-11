@@ -28,11 +28,6 @@ footer{
 	color: black;
 }
 
-.contenedor{
-	width: 70%;
-}
-
-
 
 .header{
 	display: -webkit-flex;
@@ -42,10 +37,8 @@ footer{
 }
 
 
-
 .menu-principal{
 	width: 50%;
-	
 	
 }
 
@@ -103,7 +96,6 @@ color: white;
 	height: 200px;
 	margin: 5px;
 	
-
 }
 
 .image{
@@ -112,8 +104,6 @@ color: white;
 	height: 100%;
 }
 
-
-    
 
 #imagen1{
   width: 70%;
@@ -155,7 +145,6 @@ color: white;
 	background-color: #d5c75f;
 	border: 2px;
 } 
-
 
 
 .imagen2{
@@ -279,6 +268,30 @@ width: 25%;
 
 
 }
+
+@-webkit-keyframes slidein {
+
+	0%{
+    margin-top: 150%
+    
+  }
+
+ 	60%{
+    margin-top: -5%
+    
+  }
+
+  	100%{
+    margin-top: 0%
+    
+  }
+
+  
+}
+
+header{
+  	animation: slidein 1.5s;
+  }
 
 
 
